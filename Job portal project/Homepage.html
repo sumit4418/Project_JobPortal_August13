@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Homepage.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Homepage for Get-Job</title>
+</head>
+<body>
+    <!--Navbar start-->
+    <nav>
+        <label class="navLogo">Get-Job</label>
+        <ul class="ml-auto nav-List" id="menu">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="About.html" target="blank">About</a></li>
+            <li><a href="ContactUs.html" target="blank">Contact</a></li>
+            <a href="EmployerLogin.html" target="blank" class="btn  nav-postJob">Post a Job</a>
+            <a href="EmployeeLogin.html" target="blank" class="btn nav-applyJob">Apply a Job</a>
+        </ul>
+        <label id="icon">
+            <button type="button" class="btn" onclick="showMenu()" id="show">
+                <i class="fas fa-bars"></i> </button>
+        </label>
+    </nav>
+    <!--Navbar End-->
+    <!--Homepgae main body start-->
+    <div class="container-fluid">
+        <div class="row homePage">
+            <div class="col-sm-12">
+                <div class="container-fluid">
+                    <div class="row">
+
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-11">
+                            <h1>300,000+ Jobs. Find Better. Faster</h1>
+
+                        </div>
+                    </div>
+                </div>
+                <!--All Jobs Body content start-->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-7 homepage-SerachBox">
+                            <div class="row">
+                                <div class="col-sm-2 dropdown ">
+                                    <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">All Jobs</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#" class="dropdown-item">Web developer</a></li>
+                                        <li><a href="#" class="dropdown-item">Call Center</a></li>
+                                        <li><a href="#" class="dropdown-item">Network Engineer</a></li>
+                                        <li><a href="#" class="dropdown-item">Full Stack Web Developer</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-3">
+                                    <a href="#" class="btn">Work From Home</a>
+                                </div>
+                                <div class="col-sm-3">
+                                    <a href="#" class="btn active">Covid-19 Resources</a>
+                                </div>
+                                <div class="col-sm-2">
+                                    <a href="#" class="btn">Contract Jobs</a>
+                                </div>
+                                <div class="col-sm-2">
+                                    <a href="#" class="btn">Fresher Jobs</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 serachBar">
+                                    <input type="text" name="searchbar" class="form-control"
+                                        placeholder="Search by Skills, Company & Job Title">
+                                    <button type="button" class="btn"><i class="fas fa-search"></i></button>
+                                </div>
+                                <div class="searchBar-Conntent">
+                                    <a href="#">Advance Search</a>
+                                </div>
+                            </div>
+                            <div class="row searchBar-Conntent-Trending-Searches">
+                                <div class="col-sm-12">
+                                    <div>
+                                        <p> <strong>Trending Searches :</strong><a href="#">Jobs in Delhi, Jobs in
+                                                Mumbai, Jobs in
+                                                Hyderabad, Jobs in Bangalore, Jobs in Chennai</a> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-5 ">
+                            <div class="row homepage-Rightcontent">
+                                <div class="col-sm-6 homepage-Uploadresume">
+                                    <div>
+                                        <p>NEW TO GETJOB</p>
+                                    </div>
+                                    <div>
+                                        <a href="JobsekerSignUp.html" target="blank">REGISTER WITH
+                                            US</a>
+                                    </div>
+                                    <br>
+                                    <br>
+                                    <div>------------OR------------</div>
+                                    <br>
+                                    <div>
+                                        <a href="JobsekerSignUp.html" target="blank"
+                                            class="btn btn-primary">UPLOAD RESUME</a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 homepage-CreateJob">
+                                    <div>
+                                        <p>FREE JOB ALERT</p>
+                                    </div>
+                                    <div>
+                                        <p>Get an email on jobs matching your criteria</p>
+                                    </div>
+
+                                    <div>
+                                        <p>No registration required</p>
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <a href="JobAlert.html" target="blank" class="btn">CREATE
+                                            JOB ALERT</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+    <!--All job boy content End-->
+    <!--Homepgae main body-topend-->
+    <!--Homepgae main body-bottom part start-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">.</div>
+            <div class="col-sm-6">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0 " class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="images/l&t.jpg" alt="L&T">
+                        </div>
+                        <div class="item">
+                            <img src="images/wipro.jpg" alt="Wipro">
+                        </div>
+                        <div class="item">
+                            <img src="images/infosys.png" alt="infosys">
+                        </div>
+                        <div class="item">
+                            <img src="images/wolsvagan.jpg" alt="Volswagan">
+                        </div>
+                        <div class="item">
+                            <img src="images/paytm.png" alt="paytm">
+                        </div>
+                        <div class="item">
+                            <img src="images/maruti.jpg" alt="maruti">
+                        </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-3">.</div>
+        </div>
+    </div>
+    <!--body homepage bottom start-->
+    <div class="container">
+        <div class="row findJobVacancies">
+            <div class="col-sm-12">
+                <h2>Find Job Vacancies by</h2>
+                <div class="row findJobVacancies-one-by-one">
+
+                    <div class="col-sm-2">
+                        <a href="#skills" class="btn active" data-toggle="collapse">Skills</a>
+                        <div class="collapse" id="skills">
+                            <div>
+                                <a href="#">Software Engineering</a>
+                                <a href="#">JAVA</a>
+                                <a href="#">Operations</a>
+                                <a href="#">Javascript</a>
+                                <a href="#">Python</a>
+                                <a href="#">SQL</a>
+                                <a href="#">BPO</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <a href="#location" class="btn active" data-toggle="collapse">Location</a>
+                        <div class="collapse" id="location">
+                            <div>
+                                <a href="#">Bangalore</a>
+                                <a href="#">Mumbai</a>
+                                <a href="#">Delhi</a>
+                                <a href="#">Hyderabad</a>
+                                <a href="#">Chennai</a>
+                                <a href="#">Pune</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <a href="#industry" class="btn active" data-toggle="collapse">Industry</a>
+                        <div class="collapse" id="industry">
+                            <div>
+                                <a href="#">IT/Computers-Software</a>
+                                <a href="#">Telecom</a>
+                                <a href="#">Internet/E-commerce</a>
+                                <a href="#">ITES/BPO</a>
+                                <a href="#">Semiconductor</a>
+                                <a href="#">Hotels/Hospitality/Restaurant</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <a href="#function" class="btn active" data-toggle="collapse">Function</a>
+                        <div class="collapse" id="function">
+                            <div>
+                                <a href="#">IT</a>
+                                <a href="#">Banking</a>
+                                <a href="#">Finance & Accounts</a>
+                                <a href="#">Programming/Maintenance</a>
+                                <a href="#">Call Center</a>
+                                <a href="#">BPO</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <a href="#role" class="btn active" data-toggle="collapse">Role</a>
+                        <div class="collapse" id="role">
+                            <div>
+                                <a href="#">Software Engineer</a>
+                                <a href="#">Software Test Engineer</a>
+                                <a href="#">Fresher</a>
+                                <a href="#">Application Engineer</a>
+                                <a href="#">Team Leader</a>
+                                <a href="#">Sales Executive</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <a href="#company" class="btn active" data-toggle="collapse">Company</a>
+                        <div class="collapse" id="company">
+                            <div>
+                                <a href="#">Accenture</a>
+                                <a href="#">Amazon</a>
+                                <a href="#">Tata Group</a>
+                                <a href="#">Bajaj Finance Limited</a>
+                                <a href="#">Lavya Associates</a>
+                                <a href="#">Genpact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--body homepage bottom start-->
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 homepage-bottom-content">
+                <div class="homepage-bottom-Tollfreenumber">
+                    <div>
+                        <h4>
+                            Browse All Jobs by Skills Find Better & Faster with Get-Job Career Services
+                        </h4>
+                        <h4>Call 1-800-4196666 now! (Toll-free)</h4>
+                    </div>
+                    <div class="homepage-bottom-GetCall">
+                        <input type="text" name="enter_number" class="form-control"
+                            placeholder="Enter Your Mobile Number"> <a href="#" class="btn"> Get a Call Back</a>
+                    </div>
+                </div>
+                <div class="col-sm-4"></div>
+            </div>
+        </div>
+    </div>
+    <!--body content ends-->
+    <!--Recent Jobs-start-->
+    <div class="container">
+        <div class="row recent-Job">
+            <div class="col-sm-12">
+                <h4>Recent Jobs</h4>
+                <div class="row">
+                    <div class="col-sm-3 recent-Jobs">
+                        <h5>Elight HR Reqruiter</h5>
+                        <p>Hiring Data Entry Operator</p>
+                        <p><strong>Experience :</strong> 1 - 2 Years</p>
+                        <p><strong>Venue :</strong> Mumbai</p>
+                    </div>
+                    <div class="col-sm-3 recent-Jobs">
+                        <h5>MR Enterprises</h5>
+                        <p>Required Mechanicle Engineer</p>
+                        <p><strong>Experience :</strong> 2 - 5 Years</p>
+                        <p><strong>Venue :</strong> Pune</p>
+                    </div>
+                    <div class="col-sm-3 recent-Jobs">
+                        <h5>JP Morgan Chase & Co.</h5>
+                        <p>Software Engineer</p>
+                        <p><strong>Experience :</strong> 2 - 5 Years</p>
+                        <p><strong>Venue :</strong> Bangalore</p>
+                    </div>
+                    <div class="col-sm-3 recent-Jobs">
+                        <h5>Microsoft</h5>
+                        <p>Senior Software Engineering</p>
+                        <p><strong>Experience :</strong> 4 - 7 Years</p>
+                        <p><strong>Venue :</strong> Mumbai</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Recent Jobs-End-->
+
+    <!--Homepgae main body-bottom part end-->
+
+    <div class="container-fluid body-Botton-Structure">
+        <div class="row joblocation-Role">
+            <div class="col-sm-2 text-center">
+                <p>Jobs by location</p>
+            </div>
+            <div class="col-sm-10">
+                <p> : Jobs in Bangalore| Jobs in Delhi| Jobs in Mumbai| Jobs in Chennai| Jobs in Hyderabad| Jobs in
+                    Kolkata| Jobs in Pune|Jobs in Chandigarh| Jobs in Lucknow</p>
+            </div>
+        </div>
+        <div class="row joblocation-Role">
+            <div class="col-sm-2 text-center">
+                <p>Jobs by Skills IT</p>
+            </div>
+            <div class="col-sm-10">
+                <p>: Biotechnology Jobs| Digital Marketing Jobs| Graphic Design Jobs|Networking Jobs| Oracle Jobs| SEO
+                    Jobs| Software Testing Jobs| Sql Jobs| Web Design jobs</p>
+            </div>
+        </div>
+        <div class="row joblocation-Role">
+            <div class="col-sm-2 text-center">
+                <p>Jobs by Skill - Non IT</p>
+            </div>
+            <div class="col-sm-10">
+                <p>: Jobs Accounting Jobs| BPO Jobs| Call Center Jobs| Civil Engineering Jobs| Content Writing Jobs|
+                    Electrical Engineering Jobs| Event Management Jobs</p>
+            </div>
+        </div>
+        <div class="row joblocation-Role">
+            <div class="col-sm-2  text-center">
+                <p>Jobs by Role</p>
+            </div>
+            <div class="col-sm-10">
+                <p>: Air Hostess Jobs| Accountant Jobs| Assistant Professor Jobs| Business Analyst Jobs|Computer
+                    Operator jobs| Data Analyst Jobs| Data Entry Operator Jobs| Fashion Designer</p>
+            </div>
+        </div>
+        <div class="row joblocation-Role">
+            <div class="col-sm-2 text-center">
+                <p> International Jobs</p>
+            </div>
+            <div class="col-sm-10">
+                <p>: Jobs in Gulf| Jobs in Singapore| Jobs in Malaysia| Jobs in Philippines| Jobs in Hong Kong| Jobs in
+                    Vietnam| Jobs in Indonesia| Jobs in Thailand|Jobs in Dubai| Jobs in UAE</p>
+            </div>
+        </div>
+        <div class="row joblocation-Role">
+            <div class="col-sm-2 text-center">
+                <p> Other Jobs</p>
+            </div>
+            <div class="col-sm-10">
+                <p>: Walk-in JobsPart Time Jobs| Contract Jobs| Jobs for WomenFresher Jobs| Freelance JobsWork from Home
+                    Jobs| 12th Pass Jobs| 10th Pass Jobs|Diploma Jobs</p>
+            </div>
+        </div>
+    </div>
+    <!--footer top structure-->
+    <div class="container-fluid">
+        <div class="row footer-Top">
+            <div class="col-sm-3">
+                <div>
+                    <select class="form-control">
+                        <option value="Default">India</option>
+                        <option value="Default">Gulf</option>
+                        <option value="Default">USA</option>
+                        <option value="Default">UK</option>
+                    </select>
+                </div>
+
+            </div>
+            <div class="col-sm-3 footer-Tollfree">
+                <div>
+                    <p> <i class="fas fa-phone-alt"></i> Toll No: +91-40-62****** </p>
+
+                </div>
+            </div>
+            <div class="col-sm-3 footer-mail">
+                <p><i class="fas fa-envelope-square"></i> info@getjobindia.com
+                </p>
+            </div>
+            <div class="col-sm-3 footer-socialmediaSymbol">
+                <div>
+                    <p><i class="fab fa-instagram"></i></p>
+                </div>
+                <div>
+                    <p> <i class="fab fa-facebook"></i></p>
+                </div>
+                <div>
+                    <p> <i class="fab fa-linkedin"></i></p>
+                </div>
+                <div>
+                    <p> <i class="fab fa-twitter"></i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer bottom structure-->
+    <!--footer content -->
+    <div class="container-fluid footer-Content ">
+        <div class="row text-left  ">
+            <div class="col-sm-4 footer-Content-details">
+                <h4>About Company</h4>
+                <p>Contact Us</p>
+                <p>About Monster</p>
+                <p>Privacy Commitment</p>
+                <p>Be Safe</p>
+                <p>Terms of Use</p>
+                <p>Report a Bug</p>
+                <p>Customer Speaks</p>
+            </div>
+            <div class="col-sm-4">
+                <h4>For employers</h4>
+                <p>Home</p>
+                <p>Buy Resume Database Access</p>
+                <p>Buy Job Postings</p>
+                <p>Advertise with Us</p>
+                <p>Employer Login</p>
+                <p>Research Reports</p>
+                <p>Job Posting Services</p>
+                <p>Better Together</p>
+            </div>
+            <div class="col-sm-4">
+                <h4>For Jobseekers</h4>
+                <p>Home</p>
+                <p>Search Jobs</p>
+                <p>Job Seeker Login</p>
+                <p>Job Seeker Signup</p>
+                <p>Free Job Alert</p>
+                <p>Freshers Jobs</p>
+                <p>Part Time Jobs</p>
+                <p>Work from Home Jobs</p>
+            </div>
+
+        </div>
+    </div>
+    <hr />
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <p>Toll free : 1-800-4*****,Toll No.:+91-40-6*****11 or sales@getjob.com</p>
+            </div>
+            <div class="col-sm-6">
+                <p> © 2021 Get-Job - All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

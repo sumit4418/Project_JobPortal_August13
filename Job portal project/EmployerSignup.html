@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Georama:wght@100&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="EmployerSignup.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Employer Sing Up</title>
+</head>
+
+<body>
+   <div class="container-fulid">
+        <!--Navbar start-->
+   <nav >
+    <label class="navLogo">Get-Job</label>
+    <ul class="ml-auto nav-List" id="menu" >
+        <li><a href="Homepage.html" target="blank">Connect with us</a></li>
+        <li><a href="ContactUs.html" target="blank">Help</a></li>
+       
+    </ul>
+    
+    <label id="icon">
+        <button type="button" class="btn" onclick="showMenu()" id="show">
+    <i class="fas fa-bars"></i> </button>
+ </label>
+</nav>
+
+</div>
+<!--Navbar End-->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-7 shadow sign-upForm">
+            <h2>Creat Recruiter Profile</h2>
+            <form action="">
+                <div class="sign-upForm-Employer">
+                    <input type="text" name="first_name" placeholder="First Name" class="form-control">
+                    <input type="text" name="Last_name" placeholder="Last Name" class="form-control">
+                </div>
+                <div class="sign-upForm-Employer">
+                    <input type="text" name="email" placeholder="Email Address" class="form-control">
+                    <input type="text" name="Mobile_number" placeholder="Mobile Number" class="form-control">
+                </div>
+                <div class="sign-upForm-Employer">
+                    <select class="form-control">
+                        <option value="default">Choose Current Locations</option>
+                        <option value="mumbai">Mumbai</option>
+                        <option value="Hydrabaad">Hydrabaad</option>
+                    </select>
+                    <input type="text" name="photo" placeholder="Upload Your Photo" class="form-control">
+                </div> 
+                <h3>Professional Details</h3>
+                <div class="sign-upForm-Employer">
+                    <input type="text" name="email" placeholder="Current Company Name" class="form-control">
+                    <input type="text" name="Mobile_number" placeholder="Current Designation" class="form-control">
+                </div>
+                <div class="sign-upForm-Employer">
+                    <select class="form-control">
+                        <option value="default">From</option>
+                        <option value="mumbai">2021</option>
+                        <option value="Hydrabaad">2020</option>
+                    </select>
+                    <select class="form-control">
+                        <option value="default">To</option>
+                        <option value="mumbai">2021</option>
+                        <option value="Hydrabaad">2020</option>
+                    </select>
+                </div>
+                <div class="sign-upForm-Employer">
+                    <input type="text" name="City" placeholder="City" class="form-control">
+                    <input type="text" name="State/Region" placeholder="State/Region" class="form-control">
+                </div>
+                <div class="sign-upForm-Employer">
+                    <input type="text" name="Zip Code" placeholder="Zip Code" class="form-control">
+                    <input type="text" name="Country" placeholder="Country" class="form-control">
+                </div>
+                <div class="sign-upForm-Employer">
+                    <select class="form-control">
+                        <option value="default">Total Experience in hiring</option>
+                        <option value="1">1+ Year</option>
+                        <option value="2">2+ Year</option>
+                    </select>
+                    <select class="form-control">
+                        <option value="default">Level i hire for</option>
+                        <option value="Junior">Junior Level</option>
+                        <option value="Mid">Mid Level</option>
+                        <option value="High">High Level</option>
+                    </select>
+                </div>
+                <div class="sign-upForm-Employer">
+                    <select class="form-control">
+                        <option value="default">Industry</option>
+                        <option value="2">IT/Computers-Software</option>
+                        <option value="1">Automotive</option>
+                        <option value="2">Banking/Accounting/Finance</option>
+                        <option value="2">Bio Technology & Life Science</option>
+                    </select>
+                    <select class="form-control">
+                        <option value="default">Function</option>
+                        <option value="Junior">IT</option>
+                        <option value="Mid">Finanace & Account</option>
+                        <option value="High">High Level</option>
+                    </select>
+                </div>
+                <div class="sign-upForm-Employer">
+                    <input type="text" name="skills" placeholder="Skill I hire for" class="form-control">
+                    
+                </div>
+                <h3>Achievements</h3>
+                
+                    <textarea name="textarea" class="form-control"></textarea>
+                
+                <div class="sign-upForm-Checkbox">
+                    <input type="checkbox"> I agree to use the aforesaid details to create my Recruiter Profile & display it on the Monster site and also agree to be bound by the <a href="#">Terms of Use & Privacy</a> of <a href="#">YouArehired</a>
+                </div>  
+                <div class="sign-upForm-Submit">
+                    <a href="#" class="btn">Submit</a>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-sm-4 sidebar">
+            <h3>Existing Employers/Recruiters? <a href="">Sign In</a> </h3>
+            <div class="sidebar-Heading">
+                <p>Create, Build, Share &
+                    Find Better Candidates</p>
+            </div>
+                <div class="Sidebar-Content">
+                    <p> <i class="fas fa-caret-right"></i> It's not only <strong>FREE</strong> but also a great way to connect with job seekers</p>
+            <p> <i class="fas fa-caret-right"></i> Build followers network to amplify your <strong>Reach</strong></p>
+            <p> <i class="fas fa-caret-right"></i> Share job postings with your <strong>Followers</strong></p>
+            <p> <i class="fas fa-caret-right"></i> Build your very own Personal Brand as a recruiter</p>
+            <p> <i class="fas fa-caret-right"></i> Create a <strong>Ready to Hire</strong> talent pipeline for your sourcing needs</p>
+                </div>
+                <div class="sidebar-KnowMore">
+                    <a href="Homepage.html" target="blank" class="btn">Know More >></a>
+                </div>
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
+</div>
+
+      <!--footer top structure-->
+      <div class="container-fluid">
+        <div class="row footer-Top">
+            <div class="col-sm-3">
+                <div>
+                    <select class="form-control">
+                        <option value="Default">India</option>
+                        <option value="Default">Gulf</option>
+                        <option value="Default">USA</option>
+                        <option value="Default">UK</option>
+                    </select>
+                </div>
+            
+            </div>
+            <div class="col-sm-3 footer-Tollfree">
+                <div>
+                    <p> <i class="fas fa-phone-alt"></i> Toll No: +91-40-62****** </p>
+                        
+                </div>
+            </div>
+            <div class="col-sm-3 footer-mail">
+                <p><i class="fas fa-envelope-square"></i> info@getjobindia.com
+                </p>
+            </div>
+            <div class="col-sm-3 footer-socialmediaSymbol">
+                <div>
+                    <p><i class="fab fa-instagram"></i></p>
+                </div>
+                <div>
+                   <p> <i class="fab fa-facebook"></i></p>
+                </div>
+                <div>
+                   <p> <i class="fab fa-linkedin"></i></p>
+                </div>
+                <div>
+                  <p>  <i class="fab fa-twitter"></i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6">
+            Toll free : 1-800-4*****,Toll No.:+91-40-6*****11 or sales@getjob.com
+        </div>
+        <div class="col-sm-6">
+            © 2021 Get-Job - All Rights Reserved
+        </div>
+    </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

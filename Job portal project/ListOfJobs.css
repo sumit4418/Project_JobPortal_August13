@@ -1,0 +1,215 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background:#EAECEE;
+}
+body i{
+    color:#33495e;
+    font-size: 2rem;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background: #33495e;
+}
+label.navLogo{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 0 40px;
+    line-height: 80px;
+}
+nav .nav-List{
+    float: right ;
+    margin-right: 60px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 7px;
+    line-height: 80px;
+}
+nav a {
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    border: 1px soli transparent ;
+    padding: 7px 10px;
+    border-radius: 3px;
+
+}
+a.active,a:hover{
+    border: 1px solid white;
+    transition: .5s;
+}
+nav #icon{
+    color: white;
+    font-size:30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+.nav-postJob{
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #3498DB;
+    margin-left: 20px;
+
+    
+ }  
+ .nav-applyJob{
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #1ABC9C;
+    margin-left: 30px;
+}
+
+
+@media screen and (max-width :740px) {
+    nav #icon{
+        display: block;
+    }
+    nav #show{
+        margin-right: 10px;
+        width: 50px;
+        height: 35px;
+    }
+    nav #show:hover{
+       border: 3px solid #3498DB;
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2f3640;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav a{
+        font-size: 20px;
+    }
+    a.active,a:hover{
+        border: none;
+        color: #3498db;
+    }
+    nav ul#menu{
+        left: 0;     
+    }
+    .btnMenu1{
+        width: 30%;
+
+       
+    }
+    .btnMenu2{
+        width: 30%;
+        
+    }
+}
+/*main Body content */
+.body-Alert{
+    background: white;
+    font-family: 'Roboto', sans-serif;
+}
+.body-Alert p{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+.card-footer{
+    background: #D5D8DC;
+    margin: 0 -15px;
+    height: 50px;
+}
+.card-footer p{
+    color:#33495e ;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.card-footer-button{
+    margin-left: 500px;
+
+}
+.card-footer-button a{
+    width: 60px;
+    color:#33495e ;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.card-body-role{
+    padding-top: 0px;
+}
+
+
+
+
+
+
+
+
+/*body body-Botton-Structure */
+.body-Botton-Structure{
+    font-family: 'Roboto', sans-serif;
+    background:#F2F4F4;
+    margin-top: 20px;
+}
+.joblocation-Role{
+    margin-top: 30px;
+}
+
+/*footer */
+/*footer-top */
+.footer-Top {
+    margin-top: 20px;
+    height: 70px;
+    border: 1px solid silver;
+}
+.footer-Tollfree{
+    padding-top: 15px;
+}
+.footer-mail{
+    padding-top: 15px;
+}
+.footer-Top p{
+    font-size: 1.8rem;
+    color:#33495e; 
+}
+.footer-Top i{
+    font-size: 3rem;
+    color:#33495e; 
+    
+}
+.footer-Top select{
+    width: 50%;
+    margin-top: 15px;
+    
+}
+.footer-socialmediaSymbol{
+    display: flex;
+}
+.footer-socialmediaSymbol i{
+    margin: 20px;
+}
+
+
+
+.footer-Content{
+    font-family: 'Roboto', sans-serif;
+    background: #33495e;
+    color: white;
+    padding-left: 150px;
+    padding-top: 20px;
+    
+}

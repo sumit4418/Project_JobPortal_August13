@@ -1,0 +1,327 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: white ;
+    
+
+
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background: #33495e;
+}
+label.navLogo{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 0 40px;
+    line-height: 80px;
+}
+nav .nav-List{
+    float: right ;
+    margin-right: 60px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 7px;
+    line-height: 80px;
+}
+nav a {
+    color:white;
+    font-size: 18px;
+    text-transform: capitalize;
+    border: 1px soli transparent ;
+    padding: 7px 10px;
+    border-radius: 3px;
+
+}
+a.active,a:hover{
+    border: 1px solid white;
+    transition: .5s;
+}
+nav #icon{
+    color: white;
+    font-size:30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+.nav-postJob{
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #3498DB;
+    margin-left: 20px;
+
+    
+ }  
+ .nav-applyJob{
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #1ABC9C;
+    margin-left: 30px;
+}
+
+
+@media screen and (max-width :740px) {
+    nav #icon{
+        display: block;
+    }
+    nav #show{
+        margin-right: 10px;
+        width: 50px;
+        height: 35px;
+    }
+    nav #show:hover{
+       border: 3px solid #3498DB;
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2f3640;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav a{
+        font-size: 20px;
+    }
+    a.active,a:hover{
+        border: none;
+        color: #3498db;
+    }
+    nav ul#menu{
+        left: 0;     
+    }
+    .btnMenu1{
+        width: 30%;
+
+       
+    }
+    .btnMenu2{
+        width: 30%;
+        
+    }
+}
+
+
+
+.body-top{
+    background-image: linear-gradient(to bottom,#455A64 ,#29B6F6);
+    opacity: 0.8;
+    
+} 
+/*log in for employer */
+.bodyContent{
+    margin-left: 200px;
+    color: white;
+}
+.bodyContent p{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}
+.login{
+    float: right;
+    width: 25%;
+    margin-right: 20px;
+    
+}
+.employerlogin{
+    padding: 10px 10px;
+    border: 2px solid white;
+    background: white;
+    border-radius: 10px;
+
+}
+.employerlogin .employerlogin-Username{
+   margin: 30px 0;
+}
+.employerlogin .employerlogin-Username input{
+    border: none;
+    border-bottom: 2px solid silver;
+ }
+.employerlogin .employerlogin-Password{
+    margin: 30px 0;
+ }
+ .employerlogin .employerlogin-Password input{
+    border: none;
+    border-bottom: 2px solid silver;
+ }
+ .employerlogin .employerlogin-FPassword{
+   
+    float: right;
+ 
+ }
+ .employerlogin-login-Button a{
+     width:100%;
+     margin-top: 10px;
+     margin-bottom: 20px;
+ }
+/*services */
+
+ .bodycontent-Services-Link{
+     display: inline;
+     justify-content: space-between;
+ }
+ .bodycontent-Services p{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
+ }
+ .bodycontent-Services-Link a{
+    width: 160px;
+    height: 50px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin: 10px 20px;
+    justify-content: center;
+    padding-top: 17px;
+    transition: .5s;
+}
+.bodycontent-Services-Link a.active{
+   background-color: #33495e;
+   color: white;
+}
+.bodycontent-Services-Link a:hover{
+    background-color: #33495e;
+    color: white;
+}
+
+/*body content bottom*/
+.bodycontent-Bottom{
+    margin-top: 30px;
+}
+.bodycontent-Bottom a{
+    width: 160px;
+    height: 50px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin: 10px 20px;
+    justify-content: center;
+    padding-top: 17px;
+    border: 1px solid #33495e;
+
+}
+.bodycontent-Bottom p{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
+    
+}
+
+.bodycontent-Bottom a:hover{
+    background-color: #33495e;
+    color: white;
+}
+.bodycontent-Bottom-div4{
+    margin-top: 30px;
+}
+.bodycontent-Bottom-div4 p{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
+    
+}
+.bodycontent-Bottom-div4 a{
+    width: 160px;
+    height: 50px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin: 10px 20px;
+    justify-content: center;
+    padding-top: 17px;
+    border: 1px solid #33495e;
+}
+
+.bodycontent-Bottom-div4 a:hover{
+    background-color: #33495e;
+    color: white;
+}
+/*footer */
+.footerMain{
+    height: 100px;
+    background: #000000;
+    opacity: 0.9;
+    margin-top: 50px;
+}
+.footerMain-content{
+    display: flex;
+}
+.footerMain-content h3{
+    color: white;
+    margin-top: 40px;
+}
+.footerMain-content a{
+    color: white;
+    background:#33495e ;
+    margin-left: 30px;
+    height: 60px;
+    width: 190px;
+    padding-top: 15px;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    transition: .5s;
+    font-size: 2rem;
+}
+.footerMain-content a:hover{
+    color: white;
+
+   
+}
+.foot{
+    margin-left: 80px;
+}
+.foot p:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+/*footer-top */
+.footer-Top {
+    margin-top: 20px;
+    height: 70px;
+    border: 1px solid silver;
+}
+.footer-Tollfree{
+    padding-top: 15px;
+}
+.footer-mail{
+    padding-top: 15px;
+}
+.footer-Top p{
+    font-size: 1.8rem;
+    color:#33495e; 
+}
+.footer-Top i{
+    font-size: 3rem;
+    color:#33495e; 
+    
+}
+.footer-Top select{
+    width: 50%;
+    margin-top: 15px;
+    
+}
+.footer-socialmediaSymbol{
+    display: flex;
+}
+.footer-socialmediaSymbol i{
+    margin: 20px;
+}
+/*sign-upForm-Employer */
+

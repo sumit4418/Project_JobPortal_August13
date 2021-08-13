@@ -1,0 +1,425 @@
+body {
+  font-family: sans-serif;
+  background: white;
+}
+
+nav {
+  height: 80px;
+  width: 100%;
+  background: #33495e;
+}
+
+label.navLogo {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  padding: 0 40px;
+  line-height: 80px;
+}
+
+nav .nav-List {
+  float: right;
+  margin-right: 60px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 7px;
+  line-height: 80px;
+}
+
+nav a {
+  color: white;
+  font-size: 18px;
+  text-transform: capitalize;
+  border: 1px soli transparent;
+  padding: 7px 10px;
+  border-radius: 3px;
+}
+
+a.active, a:hover {
+  border: 1px solid white;
+  transition: 0.5s;
+}
+
+nav #icon {
+  color: white;
+  font-size: 30px;
+  line-height: 80px;
+  float: right;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+.nav-postJob {
+  font-size: 13px;
+  font-weight: bold;
+  background-color: #3498DB;
+  margin-left: 20px;
+}
+
+.nav-applyJob {
+  font-size: 13px;
+  font-weight: bold;
+  background-color: #1ABC9C;
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 740px) {
+  nav #icon {
+    display: block;
+  }
+
+  nav #show {
+    margin-right: 10px;
+    width: 50px;
+    height: 35px;
+  }
+
+  nav #show:hover {
+    border: 3px solid #3498DB;
+  }
+
+  nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2f3640;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  nav li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav a {
+    font-size: 20px;
+  }
+
+  a.active, a:hover {
+    border: none;
+    color: #3498db;
+  }
+
+  nav ul#menu {
+    left: 0;
+  }
+
+  .btnMenu1 {
+    width: 30%;
+  }
+
+  .btnMenu2 {
+    width: 30%;
+  }
+}
+/*log in for employer */
+.bodyContent {
+  margin-left: 200px;
+  color: white;
+}
+
+.bodyContent p {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.login {
+  float: right;
+  width: 25%;
+}
+
+.employerlogin {
+  padding: 10px 10px;
+  border: 2px solid white;
+  background: white;
+  border-radius: 10px;
+}
+
+.employerlogin .employerlogin-Username {
+  margin: 30px 0;
+}
+
+.employerlogin .employerlogin-Username input {
+
+  border-bottom: 2px solid silver;
+}
+
+.employerlogin .employerlogin-Password {
+  margin: 30px 0;
+}
+
+.employerlogin .employerlogin-Password input {
+
+  border-bottom: 2px solid silver;
+}
+
+.employerlogin .employerlogin-FPassword {
+  float: right;
+}
+
+.employerlogin-login-Button a {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+/*body content bottom*/
+
+
+nav {
+  height: 80px;
+  width: 100%;
+  background: #33495e;
+}
+
+label.navLogo {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  padding: 0 40px;
+  line-height: 80px;
+}
+
+nav .nav-List {
+  float: right;
+  margin-right: 60px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 7px;
+  line-height: 80px;
+}
+
+nav a {
+  color: white;
+  font-size: 18px;
+  text-transform: capitalize;
+  border: 1px soli transparent;
+  padding: 7px 10px;
+  border-radius: 3px;
+}
+
+a.active, a:hover {
+  border: 1px solid white;
+  transition: 0.5s;
+}
+
+nav #icon {
+  color: white;
+  font-size: 30px;
+  line-height: 80px;
+  float: right;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+.nav-postJob {
+  font-size: 13px;
+  font-weight: bold;
+  background-color: #3498DB;
+  margin-left: 20px;
+}
+
+.nav-applyJob {
+  font-size: 13px;
+  font-weight: bold;
+  background-color: #1ABC9C;
+  margin-left: 30px;
+}
+
+
+
+@media screen and (max-width: 1048px) {
+  label.logo {
+    font-size: 32px;
+    padding-left: 60px;
+  }
+
+  nav ul {
+    margin-right: 20px;
+  }
+
+  nav a {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 740px) {
+  nav #icon {
+    display: block;
+  }
+
+  nav #show {
+    margin-right: 10px;
+    width: 50px;
+    height: 35px;
+  }
+
+  nav #show:hover {
+    border: 3px solid #3498DB;
+  }
+
+  nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2f3640;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  nav li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav a {
+    font-size: 20px;
+  }
+
+  a.active, a:hover {
+    border: none;
+    color: #3498db;
+  }
+
+  nav ul#menu {
+    left: 0;
+  }
+
+  .btnMenu1 {
+    width: 30%;
+  }
+
+  .btnMenu2 {
+    width: 30%;
+  }
+}
+.loginpage {
+  padding: 20px 20px;
+  background: white;
+  border: 1px solid #D5DBDB;
+}
+.loginpage .displayflex {
+  margin-top: 20px;
+}
+.loginpage .displayflex input {
+  border-left: black;
+}
+.loginpage .displayflex button {
+  border-right: 2px solid white;
+}
+.loginpage a {
+  float: right;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.loginpage .login-Button {
+  padding-top: 0px;
+  justify-content: center;
+  text-align: center;
+  float: left;
+}
+.loginpage .login-Button #loginBtn {
+  width: 340px;
+  font-size: 1.5rem;
+}
+.loginpage .login-Button #loginBtn:hover {
+  background: #34495E;
+  border: 2px solid white;
+  transition: 0.5s;
+}
+
+#loginBtn1 {
+  width: 340px;
+  border-radius: 20px;
+  margin-top: 40px;
+  color:#1565C0 ;
+  font-size: 1.6rem;
+}
+
+#loginBtn1:hover {
+  background-color: #1565C0;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: 2px solid white;
+}
+
+#loginBtn2 {
+  color: #FF5722;
+  width: 340px;
+  border-radius: 20px;
+  font-size: 1.6rem;
+}
+
+#loginBtn2:hover {
+  background: #FF5722;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: 2px solid white;
+}
+
+#loginBtn3 {
+  width: 340px;
+  color: white;
+  background: #607D8B;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+#loginBtn3:hover {
+  font-size: 1.3rem;
+  font-weight: bold;
+  transition: 0.5s;
+  border: 2px solid white;
+}/*# sourceMappingURL=style.css.map */
+
+
+/*footer-top */
+.footer-Top {
+  background: #33495e;
+  margin-top: 20px;
+  height: 70px;
+  border: 1px solid silver;
+  color: white;
+}
+.footer-Tollfree{
+  padding-top: 15px;
+}
+.footer-mail{
+  padding-top: 15px;
+}
+.footer-Top p{
+  font-size: 1.8rem;
+  color:white
+}
+.footer-Top i{
+  font-size: 3rem;
+  color:white; 
+  
+}
+.footer-Top select{
+  width: 50%;
+  margin-top: 15px;
+  
+}
+.footer-socialmediaSymbol{
+  display: flex;
+}
+.footer-socialmediaSymbol i{
+  margin: 20px;
+}
